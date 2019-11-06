@@ -1,0 +1,41 @@
+server:
+  port: 8082
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
+    register-with-eureka: true
+
+security:
+  jwt:
+    public-key: classpath:public.txt
+    
+spring:
+  application:
+    name: stock
+# Database
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/bdstock
+    username: postgres
+    password: postgres
+# JPA properties
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true  
+        dialect: org.hibernate.dialect.PostgreSQLDialect    
+
+
+
+

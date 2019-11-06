@@ -1,0 +1,7 @@
+/home/eleuzer/NetBeansProjects/microservice-architecture/auth/src/main/java/br/com/microservice/oauthsecurity/jwt/OAuth2ServerJwtApplication.java
+/home/eleuzer/NetBeansProjects/microservice-architecture/auth/src/main/java/br/com/microservice/oauthsecurity/jwt/config/security/DefaultPasswordEncoderFactories.java
+/home/eleuzer/NetBeansProjects/microservice-architecture/auth/src/main/java/br/com/microservice/oauthsecurity/jwt/config/props/SecurityProperties.java
+/home/eleuzer/NetBeansProjects/microservice-architecture/auth/src/main/java/br/com/microservice/oauthsecurity/jwt/config/security/AuthorizationServerConfiguration.java
+/home/eleuzer/NetBeansProjects/microservice-architecture/auth/src/main/java/br/com/microservice/oauthsecurity/jwt/config/security/WebSecurityConfiguration.java
+/home/eleuzer/NetBeansProjects/microservice-architecture/auth/src/main/java/br/com/microservice/oauthsecurity/jwt/config/security/ResourceServerConfiguration.java
+/home/eleuzer/NetBeansProjects/microservice-architecture/auth/src/main/java/br/com/microservice/oauthsecurity/jwt/web/UserController.java

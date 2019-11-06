@@ -1,0 +1,8 @@
+br/com/microservice/oauthsecurity/jwt/config/security/WebSecurityConfiguration.class
+br/com/microservice/oauthsecurity/jwt/config/security/ResourceServerConfiguration.class
+br/com/microservice/oauthsecurity/jwt/config/security/AuthorizationServerConfiguration.class
+br/com/microservice/oauthsecurity/jwt/config/props/SecurityProperties$JwtProperties.class
+br/com/microservice/oauthsecurity/jwt/web/UserController.class
+br/com/microservice/oauthsecurity/jwt/config/props/SecurityProperties.class
+br/com/microservice/oauthsecurity/jwt/config/security/DefaultPasswordEncoderFactories.class
+br/com/microservice/oauthsecurity/jwt/OAuth2ServerJwtApplication.class
